@@ -7,7 +7,8 @@ pipeline {
   }
   agent {
     node {
-      label 'nodejs' 
+      label 'nodejs'
+    } 
   }
   stages {
     stage ('Validate configuration resources') {
